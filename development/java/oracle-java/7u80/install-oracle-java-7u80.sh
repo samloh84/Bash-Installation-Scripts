@@ -2,7 +2,7 @@
 
 export JAVA_ROOT=/opt/java
 export JAVA_INSTALL_ZIP=jdk-7u80-linux-x64.tar.gz
-export JAVA_INSTALL_ZIP_URL=http://download.oracle.com/otn/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz
+export JAVA_INSTALL_ZIP_URL=http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz
 export JAVA_SECURITY_INSTALL_ZIP=UnlimitedJCEPolicyJDK7.zip
 export JAVA_SECURITY_INSTALL_ZIP_URL=http://download.oracle.com/otn-pub/java/jce/7/UnlimitedJCEPolicyJDK7.zip
 export JAVA_HOME=${JAVA_ROOT}/jdk1.7.0_80
