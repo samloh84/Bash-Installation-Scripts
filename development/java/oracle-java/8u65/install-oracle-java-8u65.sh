@@ -20,12 +20,12 @@ function execute_as_root {
 
 function install_java {
     if [[ ! -f ${JAVA_INSTALL_ZIP} ]]; then
-        wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
+        wget --progress=bar:force --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
         ${JAVA_INSTALL_ZIP_URL}
     fi
 
     if [[ ! -f ${JAVA_SECURITY_INSTALL_ZIP} ]]; then
-        wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
+        wget --progress=bar:force --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
         ${JAVA_SECURITY_INSTALL_ZIP_URL}
     fi
 
